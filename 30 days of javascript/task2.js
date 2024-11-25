@@ -14,7 +14,3 @@ var expect = function (val) {
         }
     }
 };
-
-
-console.log(expect(5).toBe(null));
-console.log(expect(5).notToBe(null));
